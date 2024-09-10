@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Dll1\Dll1\dllmain.cpp" />
+    <ClCompile Include="..\..\Dll1\Dll1\pch.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Dll1\Dll1\framework.h" />
+    <ClInclude Include="..\..\Dll1\Dll1\pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
